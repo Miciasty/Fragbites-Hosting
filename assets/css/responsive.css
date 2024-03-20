@@ -1,0 +1,359 @@
+html 
+{
+    box-sizing: border-box;
+}
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(8, 6, 6);
+}
+::-webkit-scrollbar 
+{
+width: 7px;
+background-color: rgb(14, 14, 16);
+}
+::-webkit-scrollbar-track 
+{
+border-left: 1px solid #000;
+}
+::-webkit-scrollbar-thumb 
+{
+background: rgb(175, 1, 1);
+    box-shadow: inset 0 0 6px rgb(175, 1, 1);
+border-radius: 40px;
+}
+::-webkit-scrollbar-thumb:hover 
+{
+background: rgb(175, 1, 1);
+    box-shadow: inset 0 0 6px rgb(175, 1, 1);
+}
+::-webkit-scrollbar-thumb:window-inactive 
+{
+background: rgb(175, 1, 1);
+}
+.ATL-A a
+{
+    color: rgb(228, 228, 228);
+    text-decoration: none;
+}
+#flag
+{
+    position: absolute;
+    margin-top: -19px;
+    margin-left: 330px;
+    width: 70px;
+    height: 20px;
+}
+#flag::after
+{
+    display: table;
+    clear: both;
+    content: '';
+}
+#ID
+{
+    float: left;
+    background-image: url("img/Poland.png");
+    background-size: cover;
+    width: 30px;
+    height: 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+#ID2
+{
+    float: left;
+    background-image: url("img/England.jpg");
+    background-size: cover;
+    width: 30px;
+    height: 20px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.MenuBar
+{
+    box-shadow: 0px 2px 4px rgb(0, 0, 0);
+}
+.ATLAS-GRID-SHOVEL1:hover
+{
+    background-color: rgb(206, 50, 89);
+    box-shadow: 0px 0px 4px rgb(9, 39, 51);
+    transition: 0.25s;
+}
+.ATLAS-GRID-SHOVEL2:hover
+{
+    background-color: rgb(0, 138, 180);
+    box-shadow: 0px 0px 4px rgb(9, 39, 51);
+    transition: 0.25s;
+}
+.ATLAS-GRID-SHOVEL3:hover
+{
+    background-color: rgb(0, 180, 150);
+    box-shadow: 0px 0px 4px rgb(9, 39, 51);
+    transition: 0.25s;
+}
+.ATLAS-GRID-SHOVEL4:hover
+{
+    background-color: rgb(122, 50, 206);
+    box-shadow: 0px 0px 4px rgb(9, 39, 51);
+    transition: 0.25s;
+}
+.ATLAS-INFO-BOT_BuT
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 190px;
+}
+.ATLAS-INFO-BOT_BuT a
+{
+    text-decoration: none;
+    color: rgb(0, 32, 34);
+    font-family: 'Monda';
+    font-weight: 600;
+}
+.ATLAS-INFO-BOT_BuT-CHK
+{
+    margin-top: 60px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    border-radius: 4px;
+    background-color: rgb(0, 168, 180);
+    box-shadow: 0px 0px 3px rgb(40, 40, 40);
+}
+.ATLAS-INFO-BOT_BuT-CHK:hover
+{
+    background-color: rgb(0, 158, 170);
+    transition: 0.1s;
+}
+.ATLAS-BOT-B
+{
+    box-shadow: 0px 0px 3px rgb(0, 138, 180);
+}
+.ATLAS-BOT-B-TOP
+{
+    width: 100%;
+    height: 128px;
+    padding-top: 20px;
+}
+#CC-1
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 128px;
+    height: 128px;
+    background-image: url("img/FrameCycle2.png");
+    background-size: cover;
+}
+#CC-2
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 128px;
+    height: 128px;
+    background-image: url("img/FrameCycle3.png");
+    background-size: cover;
+}
+.ATLAS-BOT-B-LiN
+{
+    margin-top: 14px;
+    width: 86px;
+    height: 4px;
+    background-color: rgb(0, 138, 180);
+    box-shadow: 0px 0px 3px rgb(40, 40, 40);
+    margin-right: auto;
+    margin-left: auto;
+}
+.ATLAS-BOT-B-TiT
+{
+    margin-top: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 22px;
+    color: rgb(228, 228, 228);
+    text-shadow: 2px 2px 4px rgb(30, 30, 30);
+}
+.ATLAS-BOT-B-DeS
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 288px;
+    margin-top: 26px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: rgb(228, 228, 228);
+    text-shadow: 2px 2px 4px rgb(30, 30, 30);
+}
+.ATLAS-BOT-B-MC
+{
+    margin-top: 26px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 19px;
+    color: rgb(228, 228, 228);
+    text-shadow: 2px 2px 4px rgb(30, 30, 30);
+}
+.ATLAS-BOT-B-A
+{
+    text-align: center;
+    margin-top: 26px;
+}
+.ATLAS-BOT-B-A a
+{
+    font-family: 'Monda';
+    font-size: 18px;
+    color: rgb(0, 138, 180);
+    text-shadow: 2px 2px 4px rgb(30, 30, 30);
+}
+.ATLAS-BOT-B-A a:hover
+{
+    color: rgb(0, 118, 160);
+}
+.ATLAS-CTN
+{
+    margin-right: auto;
+    margin-left: auto;
+}
+.ATLAS-CTN-LiN
+{
+    width: 140px;
+    height: 4px;
+    background-color: rgb(0, 118, 160);
+    box-shadow: 0px 1px 8px rgb(0, 118, 160);
+    margin-left: auto;
+    margin-right: auto;
+}
+.ATLAS-CTN-LiN-2
+{
+    width: 140px;
+    height: 4px;
+    background-color: rgb(0, 180, 150);
+    box-shadow: 0px 1px 8px rgb(0, 180, 150);
+    margin-left: auto;
+    margin-right: auto;
+}
+.ATLAS-BOT-C1A
+{
+    display: table;
+    clear: both;
+    content: '';
+}
+#ABC-B1
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+    height: 140px;
+    background-image: url("img/FrameCycle6.png");
+    background-size: cover;
+}
+#ABC-B2
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+    height: 140px;
+    background-image: url("img/FrameCycle5.png");
+    background-size: cover;
+}
+#ABC-B3
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+    height: 140px;
+    background-image: url("img/FrameCycle4.png");
+    background-size: cover;
+}
+.ATLAS-BOT-C1A-B-TiT
+{
+    margin-top: 20px;
+    text-align: center;
+}
+.ATLAS-BOT-C1A-B-TiT a
+{
+    margin-top: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(228, 228, 228);
+    text-shadow: 2px 2px 4px rgb(30, 30, 30);
+}
+.ATLAS-BOT-C1A-B-TiT a:hover
+{
+    transition: 0.1s;
+    color: rgb(0, 195, 255);
+}
+.ATLAS-FTeR
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.ATLAS-FTeR-LiN
+{
+    width: 140px;
+    height: 4px;
+    background-color: rgb(206, 50, 89);
+    box-shadow: 0px 1px 8px rgb(206, 50, 89);
+    margin-left: auto;
+    margin-right: auto;
+}
+.ATLAS-FTeR-B1A::after
+{
+    display: table;
+    clear: both;
+    content: '';
+}
+.ATLAS-FTeR-TiT
+{
+    color: rgb(228, 228, 228);
+    font-family: 'Monda';
+    font-size: 19px;
+    margin-bottom: 16px;
+}
+.ATLAS-FTeR-A
+{
+    margin-top: 5px;
+    font-size: 15px;
+}
+.ATLAS-FTeR-A a
+{
+    color: rgba(85, 79, 79, 0.453);
+    text-decoration: none;
+    transition: 0.1s;
+}
+.ATLAS-FTeR-A a:hover
+{
+    color: rgb(208, 208, 208);
+    transition: 0.1s;
+}
+.ATLAS-FTeR-A-FB
+{
+    margin-top: 20px;
+    width: 269px;
+    height: 90px;
+    background-image: url("img/wn02s.png");
+    background-size: cover;
+}
+.ATLAS-FTeR-B1A-InF
+{
+    margin-bottom: 20px;
+}
+.ATLAS-FTeR-B1A-InF-EnD
+{
+    margin-bottom: 20px;
+}
+.ATLAS-FTeR-C_R
+{
+    width: calc(100% - 50px);
+    padding: 20px;
+    padding-left: 30px;
+    font-size: 14px;
+    border-top: 1px solid rgba(85, 79, 79, 0.453);
+    border-bottom: 1px solid rgba(85, 79, 79, 0.453);
+    color: rgba(85, 79, 79, 0.453);
+    font-family: 'Monda';
+}

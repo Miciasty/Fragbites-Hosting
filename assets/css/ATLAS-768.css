@@ -1,0 +1,341 @@
+@media only screen and (max-width: 768px) 
+{
+    .TopBar
+    {
+        width: 100%;
+        height: 100px;
+        background-color: rgb(18, 16, 16);
+        /*background-color: rgb(34, 35, 38);*/
+        box-shadow: 0px 2px 4px rgb(18,18,18);
+    }
+    .Left
+    {
+        float: left;
+        width: 30%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 0;
+    }
+    .F-B
+    {
+        margin-left: 20px;
+        width: 100px;
+        height: 100px;
+        background-image: url("img/fragbites_logo.png");
+        background-size: cover;
+    } 
+    .Right
+    {
+        float: left;
+        width: 70%;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(18, 16, 16);
+    }
+    .R-Box
+    {
+        float: right;
+        color: rgb(18, 16, 16);
+        width: 420px;
+        height: auto;
+        padding-top: 41px;
+        padding-bottom: 41px;
+       
+    }
+    .R-Box a
+    {
+        color: none;
+        font-family: sans-serif;
+        text-decoration: none;
+        font-size: 0px;
+    }
+    .R-Box a:hover
+    {
+        color: none;
+    }
+    
+    .MenuBar
+    {
+        width: 100%;
+        height: 0;
+        background-color: rgb(14, 63, 83);
+    }
+    .ATLAS-GRID-TOP
+    {
+        width: 0;
+        height: 0;
+        margin-left: auto;
+        margin-right: auto;
+        color: rgb(228, 228, 228);
+    }
+    .ATLAS-GRID-TOP::after
+    {
+        display: table;
+        clear: both;
+        content: '';
+    }
+    .ATLAS-GRID-SHOVEL1
+    {
+        float: left;
+        padding-top: 0;
+        padding-bottom: 0;
+        text-align: center;
+        width: 0;
+        font-size: 0;
+        font-family: sans-serif;
+        transition: 0.10s;
+    }
+    .ATLAS-GRID-SHOVEL2
+    {
+        float: left;
+        padding-top: 0;
+        padding-bottom: 0;
+        text-align: center;
+        width: 0;
+        font-size: 0;
+        font-family: sans-serif;
+        transition: 0.10s;
+    }
+    .ATLAS-GRID-SHOVEL3
+    {
+        float: left;
+        padding-top: 0;
+        padding-bottom: 0;
+        text-align: center;
+        width: 0;
+        font-size: 0;
+        font-family: sans-serif;
+        transition: 0.10s;
+    }
+    .ATLAS-GRID-SHOVEL4
+    {
+        float: left;
+        padding-top: 0;
+        padding-bottom: 0;
+        text-align: center;
+        width: 0;
+        font-size: 0;
+        font-family: sans-serif;
+        transition: 0.10s;
+    }
+    .ATLAS-Gllery
+    {
+        max-width: 100%;
+        height: 1500px;
+        background: url("img/inter2.jpg") no-repeat center top;
+        background-size: cover;
+    }
+    .ATLAS-INFO-TOP_TiT
+    {
+        padding-top: 64px;
+        text-align: center;
+        font-size: 32px;
+        color: rgba(230, 222, 222, 0.975);
+        text-shadow: 2px 2px 4px rgb(30, 30, 30);
+        font-family: 'Monda';
+    }
+    .ATLAS-INFO-TOP_BoT
+    {
+        width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 18px;
+        color: rgba(230, 222, 222, 0.975);
+        text-shadow: 2px 2px 4px rgb(30, 30, 30);
+        font-family: 'Monda';
+    }
+    .ATLAS-INFO-BOT-MC
+    {
+        padding-top: 76px;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 600;
+        color: rgba(230, 222, 222, 0.975);
+        text-shadow: 2px 2px 4px rgb(30, 30, 30);
+        font-family: 'Monda';
+    }
+    .ATLAS-BOT-INFO
+    {
+        margin-top: 80px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ATLAS-BOT-INFO::after
+    {
+        display: table;
+        clear: both;
+        content: '';
+    }
+    .ATLAS-BOT-B
+    {
+        float: left;
+        width: 298px;
+        height: 428px;
+        margin-left: calc( (100% - 300px)/2);
+        margin-right: calc( (100% - 300px)/2);
+        border: 1px solid rgb(0, 138, 180);
+    }
+    .ATLAS-CTN
+    {
+        width: 100%;
+        height: 800px;
+    }
+    .ATLAS-CTN-B1A-TiT
+    {
+        padding-top: 60px;
+        font-size: 34px;
+        text-align: center;
+        color: rgb(228, 228, 228);
+        text-shadow: 2px 2px 4px rgb(30, 30, 30);
+        font-family: 'Monda';
+    }
+    .ATLAS-CTN-B1A-BT1::after
+    {
+        display: table;
+        clear: both;
+        content: '';
+    }
+    .ATLAS-CTN-B1A-BT1
+    {
+        width: 100%;
+    }
+    .ATLAS-CTN-BT1-L
+    {
+        float: left;
+        width: 256px;
+        height: 124px;
+        margin-top: 60px;
+        margin-left: calc( (100% - 256px)/2);
+        margin-left: calc( (100% - 256px)/2);
+        background-image: url("img/Pays.png");
+        background-size: cover;
+    }
+    .ATLAS-CTN-BT1-R
+    {
+        float: left;
+        width: 256px;
+        height: 124px;
+        margin-top: 80px;
+        text-align: center;
+        margin-left: calc( (100% - 256px)/2);
+        margin-left: calc( (100% - 256px)/2);
+        font-size: 20px;
+        color: rgb(228, 228, 228);
+        text-shadow: 2px 2px 4px rgb(30, 30, 30);
+        font-family: 'Monda';
+    }
+    .ATLAS-BOT-TiT
+    {
+        padding-top: 60px;
+        font-size: 34px;
+        text-align: center;
+        color: rgba(228, 228, 228, 0.9);
+        text-shadow: 2px 2px 4px rgb(30, 30, 30);
+        font-family: 'Monda';
+    }
+    .ATLAS-BOT
+    {
+        max-width: 100%;
+        height: 1340px;
+        background: url("img/inter3.jpg") no-repeat center top;
+        background-size: cover;
+    }
+    .ATLAS-BOT-TiT
+    {
+        padding-top: 60px;
+        font-size: 44px;
+        text-align: center;
+        color: rgba(228, 228, 228, 0.9);
+        text-shadow: 2px 2px 4px rgb(30, 30, 30);
+        font-family: 'Monda';
+    }
+    .ATLAS-BOT-C1A
+    {
+        margin-top: 60px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ATLAS-BOT-C1A-B
+    {
+        float: left;
+        width: 200px;
+        height: 230px;
+        margin-left: calc( (100% - 200px)/2);
+        margin-left: calc( (100% - 200px)/2);
+    }
+    .ATLAS-BOT-PlG
+    {
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 300px;
+        color: rgb(228, 228, 228);
+        text-shadow: 2px 2px 4px rgb(30, 30, 30);
+        font-family: 'Monda';
+        font-size: 16px;
+    }
+    .ATLAS-FTeR
+    {
+        width: 100%;
+        height: 340px;
+    }
+    .ATLAS-FTeR-B1A
+    {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        color: rgb(136, 127, 127);
+        font-family: sans-serif;
+    }
+    .ATLAS-FTeR-B1A-InF
+    {
+        float: left;
+        margin-top: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: -20px;
+        width: 269px;
+        height: 226px;
+        margin-left: calc( (100% - 269px)/2);
+        margin-right: calc( (100% - 269px)/2);
+        border-right: 1px solid rgba(85, 79, 79, 0);
+        border-bottom: 1px solid rgba(85, 79, 79, 0.453);
+    }
+    .ATLAS-FTeR-B1A-InF-EnD
+    {
+        float: left;
+        margin-top: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 269px;
+        height: 226px;
+        margin-left: calc( (100% - 269px)/2);
+        margin-right: calc( (100% - 269px)/2);
+        border-right: 1px solid rgba(85, 79, 79, 0);
+    }
+    .ATLAS-FTeR-A-FB
+    {
+        margin-top: 20px;
+        width: 269px;
+        height: 90px;
+        background-image: url("img/wn02s.png");
+        background-size: cover;
+    }
+    .ATLAS-FTeR-C_R
+    {
+        width: calc(100% - 50px);
+        padding: 20px;
+        padding-left: 30px;
+        font-size: 14px;
+        border-top: 1px solid rgba(85, 79, 79, 0);
+        border-bottom: 1px solid rgba(85, 79, 79, 0);
+        color: rgba(85, 79, 79, 0.453);
+        font-family: 'Monda';
+    }
+}
